@@ -32,7 +32,7 @@
 
     <string name="acerca_title">Acerca de la app</string>
     <string name="acerca_header">byteCraft.mx</string>
-    <string name="acerca_text">App desarrollada por <a href="http://bytecraft.mx">byteCraft.mx</a>. Se aceptan correcciones y mejoras en el <a href="http://www.github.com">repositorio del código fuente</a>.</string>
+    <string name="acerca_text">App desarrollada por <a href="http://bytecraft.mx">byteCraft.mx</a>. Se aceptan correcciones y mejoras en el <a href="https://github.com/punkrobot/transito-df">repositorio del código fuente</a>.</string>
     <string name="acerca_creditos_title">Créditos</string>
     <string name="acerca_creditos_text">Con imágenes y textos del <a href="https://www.ecobici.df.gob.mx/sites/default/files/pdf/manual-del-ciclista.pdf">Manual del Ciclista Urbano</a></string>
 
