@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Tránsito DF</string>
+
+
+    <!-- Menú -->
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_calc">Calculadora</string>
+    <string name="action_search">Búsqueda</string>
+    <string name="action_about">Acerca de la app</string>
+
+
+    <!-- Preferencias -->
+
+    <string name="title_reglamento">Reglamento de tránsito</string>
+    <string name="title_articulo">Artículo</string>
+    <string name="title_activity_settings">Configuración</string>
+
+    <string name="calc_title">Calculadora de Multas</string>
+    <string name="calc_ucdmx">Veces UCDMX</string>
+    <string name="calc_dsm">Días de SM</string>
+    <string name="calc_multa_label">Multa</string>
+    <string name="calc_multa_desc_label">Con descuento</string>
+    <string name="calc_default">$0.00</string>
+    <string name="calc_desc">Según lo establecido en el artículo 40 del Reglamento de Tránsito el infractor tiene un plazo de 30 días a partir de la fecha de emisión de la infracción para contar con un descuento del 50% sobre el monto de la multa.\n\nSe puede consultar información para realizar el pago en la página de la <a href="http://www.finanzas.df.gob.mx">Secretaría de Finanzas del Distrito Federal.</a></string>
+    <string name="dialog_close">Cerrar</string>
+
+    <string name="label_tipo_derecho">Derecho</string>
+    <string name="label_tipo_obligacion">Obligación</string>
+    <string name="label_tipo_consejo">Consejo</string>
+    <string name="label_articulo">"Artículo"</string>
+
+    <string name="acerca_title">Acerca de la app</string>
+    <string name="acerca_header">byteCraft.mx</string>
+    <string name="acerca_text">App desarrollada por <a href="http://bytecraft.mx">byteCraft.mx</a>. Se aceptan correcciones y mejoras en el <a href="http://www.github.com">repositorio del código fuente</a>.</string>
+    <string name="acerca_creditos_title">Créditos</string>
+    <string name="acerca_creditos_text">Con imágenes y textos del <a href="https://www.ecobici.df.gob.mx/sites/default/files/pdf/manual-del-ciclista.pdf">Manual del Ciclista Urbano</a></string>
+
+    <string name="share_title">Compartir usando …</string>
+    <string name="share_text">#RTDF #TránsitoDF</string>
+
+
+    <!-- Preferencias -->
+
+    <string name="pref_reg_title">Reglamento de tránsito</string>
+    <string name="pref_tab_title">Pestaña inicial</string>
+
+    <string name="preference_file_key">mx.bytecraft.apps.transitodf.pref</string>
+    <string name="pref_reg_key">mx.bytecraft.apps.transitodf.reglamento</string>
+    <string name="pref_tab_key">mx.bytecraft.apps.transitodf.reglamento_tab</string>
+    <string name="pref_title_key">mx.bytecraft.apps.transitodf.reglamento_title</string>
+
+    <string name="reglamento_default">reglamento_df_2015</string>
+    <string name="title_default">Distrito Federal (2015)</string>
+    <string name="tab_default">peaton</string>
+
+
+    <!-- Constantes -->
+
+    <bool name="is_tablet">false</bool>
+
+    <string name="ucdmx">69.95</string>
+    <string name="sm">70.10</string>
+
+</resources>

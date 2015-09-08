@@ -1,0 +1,16 @@
+[
+  {
+    "tipo": "derecho",
+    "titulo": "Cruce de calles",
+    "texto": "En vías secundarias puedes cruzar en cualquier parte de la calle, sin embargo, hazlo con precaución observando ambos lados de la calle. En vías primarias debes cruzar por las esquinas.",
+    "resumen": "Un peatón puede cruzar en cualquier parte de la calle en una vía secundaria",
+    "articulo": 5
+  },
+  {
+    "tipo": "obligacion",
+    "titulo": "Obecede indicaciones y señalizaciones",
+    "texto": "Los peatones deben obedecer las indicaciones de los agentes, personal de apoyo vial, promotores voluntarios así como la señalización vial.",
+    "resumen": "Los peatones deben obedecer las indicaciones de los agentes, personal de apoyo y señalizaciones",
+    "articulo": 5
+  }
+]

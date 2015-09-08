@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/tip_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp" >
+
+            <ImageView
+                android:id="@+id/tip_tipo_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:paddingTop="0dp"
+                android:paddingRight="12dp"
+                android:clickable="true"
+                android:src="@drawable/ic_info_outline_grey_400_36dp" />
+
+            <TextView
+                android:id="@+id/tip_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/tip_tipo_icon"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/secondary_toolbar"
+                android:textSize="12sp"
+                android:text="Obligación" />
+
+            <TextView
+                android:id="@+id/tip_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tip_tipo"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tip_tipo_icon"
+                android:text="Titulo"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tip_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/tip_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="16dp"
+            android:background="#888"
+            android:src="@drawable/circula_derecho" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tip_art"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="21dp"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_toolbar"
+                android:text="Artículo 20" />
+
+            <ImageView
+                android:id="@+id/tip_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple"
+                android:padding="16dp"
+                android:src="@drawable/ic_share_grey_600_24dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

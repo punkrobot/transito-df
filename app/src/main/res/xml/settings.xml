@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <mx.bytecraft.app.transitodf.utils.ListPreferenceShowSummary
+        android:key="@string/pref_reg_key"
+        android:title="@string/pref_reg_title"
+        android:defaultValue="@string/reglamento_default"
+        android:entries="@array/pref_reg_titles"
+        android:entryValues="@array/pref_reg_values" />
+
+    <mx.bytecraft.app.transitodf.utils.ListPreferenceShowSummary
+        android:key="@string/pref_tab_key"
+        android:title="@string/pref_tab_title"
+        android:defaultValue="@string/tab_default"
+        android:entries="@array/pref_tab_titles"
+        android:entryValues="@array/pref_tab_values" />
+
+</PreferenceScreen>

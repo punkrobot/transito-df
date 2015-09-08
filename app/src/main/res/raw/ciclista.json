@@ -1,0 +1,46 @@
+[
+  {
+    "tipo": "obligacion",
+    "titulo": "Respeta el sentido de las vías",
+    "texto": "El sentido de las calles aplica para todos los vehículos, incluidas las bicicletas. Esta disposición legal tiene una importante razón de ser: ningún peatón o conductor espera vehículos en sentido contrario, por lo cual nadie voltea a ver en esa dirección.",
+    "resumen": "El sentido de las calles aplica para todos los vehículos, incluidas las bicicletas",
+    "articulo": 8
+  },
+  {
+    "tipo": "derecho",
+    "titulo": "Ubica tu posición en el carril",
+    "texto": "Existen dos posiciones básicas de circulación en bicicleta. La elección de una de ellas debe depender del contexto en el que te encuentres, si los carriles son lo suﬁcientemente anchos, y no sientes comprometida tu seguridad, puedes circular en posición secundaria guardando distancia con los automóviles estacionados, sin embargo tienes derecho a ocupar el carril completo si lo consideras necesario.",
+    "resumen": "Los ciclistas pueden ocupar el carril completo si lo consideran necesario. Art. 17",
+    "articulo": 17,
+    "imagen": "posicion_carril"
+  },
+  {
+    "tipo": "obligacion",
+    "titulo": "No circules sobre banquetas",
+    "texto": "No utilices las banquetas o áreas peatonales para circular, al pasar sobre éstas desmonta la bicicleta y camina.",
+    "resumen": "Los ciclistas tienen prohibido circular sobre banquetas o áreas peatonales. Art. 19",
+    "articulo": 19
+  },
+  {
+    "tipo": "consejo",
+    "titulo": "Rebasa por la izquierda",
+    "texto": "No rebases por la derecha a un vehiculo que se orilla, generalmente los vehículos lo hacen porque vana bajar o subir personas o carga. Siempre rebasa por la izquierda.",
+    "resumen": "Rebasa siempre por la izquierda",
+    "articulo": 8,
+    "imagen": "rebasa_izquierda"
+  },
+  {
+    "tipo": "consejo",
+    "titulo": "Conduce en línea recta",
+    "texto": "Evita ocupar los huecos entre los autos estacionados. Si mantienes una trayectoria predecible el resto de los usuarios de la vía pueden prever tus movimientos y ajustar a su vez los propios.",
+    "resumen": "Al andar en bicicleta circula siempre en línea recta, no ocupes los espacios entre los coches estacionados",
+    "imagen": "circula_derecho"
+  },
+  {
+    "tipo": "derecho",
+    "titulo": "Puedes pasarte los altos en vías secundarias",
+    "texto": "No obstante, debes entender y hacerte responsable de los riesgos que, como ciclista, implica cruzar una calle en esas condiciones. Detente haciendo alto total y bajando uno de los pies al suelo, fíjate a ambos lados de la calle buscando peatones y automóviles, y cruza sólo cuando tengas la total certeza de que tienes espacio de sobra para cruzar cómodamente.",
+    "resumen": "Los cilistas pueden pasarse el alto con precaución en vías secundarias. Art. 16",
+    "articulo": 16
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "tipo": "derecho",
+    "titulo": "Conoce el proceso de infracción",
+    "texto": "<ol><li>El agente indicará al conductor que detenga la marcha.</li><li>Reportará vía radio el motivo, matrícula y/o placas del vehícluo.</li><li>Se identificará con su nombre y no. de placa.</li><li>Señalará al conductor la infracción que cometió y le mostrará el artículo que lo fundamenta, así como la sanción que aplica.</li><li>Solicitará al conductor la licencia para conducir, tarjeta de circulación y en su caso póliza de seguro.</li><li>Si procede, se llenará la boleta de sanción y se entregará una copia.</li><li>Devolverá la documentación.</li></ol>",
+    "resumen": "El artículo 59 del reglamento de tránsito del DF detalla el proceso de infracción, conócelo",
+    "articulo": 59
+  },
+  {
+    "tipo": "obligacion",
+    "titulo": "La vuelta continua esta prohibida",
+    "texto": "La vuelta continua, a la derecha y a la izquierda, está prohibida. Debes ceder el paso a ciclistas o peatones que estén esperando cruzar la calle.",
+    "resumen": "La vuelta continua esta prohibida",
+    "articulo": 10
+  },
+  {
+    "tipo": "obligacion",
+    "titulo": "Rebasa ciclistas con precaución",
+    "texto": "Al rebasar ciclistas o motociclistas debes de otorgar al menos una distancia de 1.5m de separación lateral.",
+    "resumen": "Debes de otorgar una separación de al menos 1.5m al rebasar ciclistas o motociclistas. Art. 8",
+    "articulo": 8,
+    "imagen": "rebase_ciclista"
+  },
+  {
+    "tipo": "derecho",
+    "titulo": "Puedes pasarte los altos entre las 11 PM y 5 AM",
+    "texto": "Sin embargo, debes detenerte completamente frente a la luz roja y asegurarte que ningún peatón o vehículo se dispone a cruzar la intersección.",
+    "resumen": "Puedes pasarte los altos entre las 11:00 PM y 5:00 AM",
+    "articulo": 10
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_reg_titles">
+        <item>Distrito Federal (2015)</item>
+        <item>DF y Área Metropolitana (2007)</item>
+    </string-array>
+    <string-array name="pref_reg_values">
+        <item>reglamento_df_2015</item>
+        <item>reglamento_df_met_2007</item>
+    </string-array>
+    <string-array name="pref_tab_titles">
+        <item>Peatón</item>
+        <item>Ciclista</item>
+        <item>Automóvilista</item>
+    </string-array>
+    <string-array name="pref_tab_values">
+        <item>peaton</item>
+        <item>ciclista</item>
+        <item>automovil</item>
+    </string-array>
+</resources>
