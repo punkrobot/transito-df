@@ -39,12 +39,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import mx.bytecraft.app.transitodf.adapter.HeaderAdapter;
 import mx.bytecraft.app.transitodf.adapter.TipsAdapter;
 import mx.bytecraft.app.transitodf.model.Tip;
 import mx.bytecraft.app.transitodf.utils.JsonReader;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener,
-        TipsAdapter.OnShareTipListener {
+        TipsAdapter.OnShareTipListener, TipsAdapter.OnHeaderClicListener {
 
     public static final String ARG_RESOURCE_ID = "resource";
     private BottomSheetLayout mBottomSheet;
@@ -185,12 +186,25 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         mBottomSheet.showWithSheetView(new IntentPickerSheetView(this, shareIntent, getString(R.string.share_title),
                 new IntentPickerSheetView.OnIntentPickedListener() {
-            @Override
-            public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo) {
-                mBottomSheet.dismissSheet();
-                startActivity(activityInfo.getConcreteIntent(shareIntent));
-            }
-        }));
+                    @Override
+                    public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo) {
+                        mBottomSheet.dismissSheet();
+                        startActivity(activityInfo.getConcreteIntent(shareIntent));
+                    }
+                }));
+    }
+
+    @Override
+    public void onHeaderClic(int id) {
+        switch (id){
+            case R.id.depositos_btn:
+                break;
+            case R.id.infracciones_btn:
+                startActivity(new Intent(MainActivity.this, InfraccionesActivity.class));
+                break;
+            case R.id.agentes_btn:
+                break;
+        }
     }
 
     static class ViewPagerAdapter extends FragmentPagerAdapter {
@@ -222,7 +236,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.fragment_tips, container, false);
-
             RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.tiplist);
 
             LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity().getBaseContext());
@@ -231,9 +244,12 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
             Bundle args = getArguments();
             JsonReader reader = new JsonReader(getResources(), args.getInt(ARG_RESOURCE_ID, 0));
-            TipsAdapter adapter = new TipsAdapter(getContext(), Arrays.asList(reader.getObjects(Tip[].class)));
+
+            boolean showHeader = args.getInt(ARG_RESOURCE_ID, 0) == R.raw.automovil;
+            TipsAdapter adapter = new TipsAdapter(getContext(), Arrays.asList(reader.getObjects(Tip[].class)), showHeader);
             recyclerView.setAdapter(adapter);
-            adapter.setOnShareTipListener((TipsAdapter.OnShareTipListener)getActivity());
+            adapter.setOnShareTipListener((TipsAdapter.OnShareTipListener) getActivity());
+            adapter.setOnHeaderClicListener((TipsAdapter.OnHeaderClicListener) getActivity());
 
             return view;
         }

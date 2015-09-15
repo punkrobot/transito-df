@@ -16,25 +16,46 @@ import mx.bytecraft.app.transitodf.R;
 import mx.bytecraft.app.transitodf.model.Tip;
 import mx.bytecraft.app.transitodf.utils.ListTagHandler;
 
-public class TipsAdapter extends RecyclerView.Adapter<TipsAdapter.TipViewHolder> {
+public class TipsAdapter extends HeaderAdapter {
 
     private List<Tip> mTips;
     private Context mContext;
+    private boolean mShowHeader;
     private OnShareTipListener mOnShareTipListener;
+    private OnHeaderClicListener mOnHeaderClicListener;
 
-    public TipsAdapter(Context context, List<Tip> tips) {
+    public TipsAdapter(Context context, List<Tip> tips, boolean showHeader) {
         this.mContext = context;
         this.mTips = tips;
+        this.mShowHeader = showHeader;
     }
 
     @Override
-    public TipViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_tip, viewGroup, false);
+    public boolean useHeader() {
+        return mShowHeader;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateHeaderViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.header_tips_auto, parent, false);
+        return new HeaderViewHolder(view);
+    }
+
+    @Override
+    public void onBindHeaderView(RecyclerView.ViewHolder holder, int position) {
+
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateBasicItemViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_tip, parent, false);
         return new TipViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(TipViewHolder viewHolder, int i) {
+    public void onBindBasicItemView(RecyclerView.ViewHolder holder, int i) {
+        TipViewHolder viewHolder = (TipViewHolder)holder;
+
         viewHolder.titulo.setText(mTips.get(i).getTitulo());
         viewHolder.texto.setText(Html.fromHtml(mTips.get(i).getTexto(), null, new ListTagHandler()));
 
@@ -71,8 +92,28 @@ public class TipsAdapter extends RecyclerView.Adapter<TipsAdapter.TipViewHolder>
     }
 
     @Override
-    public int getItemCount() {
+    public int getBasicItemCount() {
         return mTips == null ? 0 : mTips.size();
+    }
+
+    @Override
+    public int getBasicItemType(int position) {
+        return 0;
+    }
+
+    class HeaderViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        public HeaderViewHolder(View itemView) {
+            super(itemView);
+
+            itemView.findViewById(R.id.infracciones_btn).setOnClickListener(this);
+            itemView.findViewById(R.id.depositos_btn).setOnClickListener(this);
+            itemView.findViewById(R.id.agentes_btn).setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            mOnHeaderClicListener.onHeaderClic(v.getId());
+        }
     }
 
     class TipViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -104,6 +145,14 @@ public class TipsAdapter extends RecyclerView.Adapter<TipsAdapter.TipViewHolder>
 
     public interface OnShareTipListener {
         void onShareTip(Tip tip);
+    }
+
+    public interface OnHeaderClicListener {
+        void onHeaderClic(int id);
+    }
+
+    public void setOnHeaderClicListener(final OnHeaderClicListener headerClicListener) {
+        this.mOnHeaderClicListener = headerClicListener;
     }
 
     public void setOnShareTipListener(final OnShareTipListener shareTipListener) {

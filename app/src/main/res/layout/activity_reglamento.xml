@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <include layout="@layout/appbar_simple" />
+    <include layout="@layout/appbar_subtitle" />
 
     <fragment
         android:id="@+id/articulo_list"

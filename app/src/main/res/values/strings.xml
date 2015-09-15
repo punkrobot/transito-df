@@ -4,6 +4,7 @@
 
     <!-- Menú -->
 
+    <string name="action_infracciones">Infracciones</string>
     <string name="action_settings">Configuración</string>
     <string name="action_calc">Calculadora</string>
     <string name="action_search">Búsqueda</string>
@@ -14,6 +15,7 @@
 
     <string name="title_reglamento">Reglamento de tránsito</string>
     <string name="title_articulo">Artículo</string>
+    <string name="title_activity_infracciones">Infracciones</string>
     <string name="title_activity_settings">Configuración</string>
 
     <string name="calc_title">Calculadora de Multas</string>
@@ -57,9 +59,15 @@
 
     <!-- Constantes -->
 
+    <string name="service_infracciones_url">http://datos.labplc.mx</string>
+    <string name="service_infracciones_date_format">yyyy-MM-dd</string>
+
     <bool name="is_tablet">false</bool>
 
     <string name="ucdmx">69.95</string>
     <string name="sm">70.10</string>
+    <string name="menu_depositos">Depósitos</string>
+    <string name="menu_infracciones">Infracciones</string>
+    <string name="menu_agentes">Agentes</string>
 
 </resources>

@@ -14,7 +14,6 @@ Puedes colaborar fácilmente compartiendo consejos para la pantalla principal, �
 También se aceptan reglamentos para otros estados, puedes ver el formato en el archivo src/res/raw/reglamento_df_2015.json
 
 ### Licencia ###
-```
- Este software esta distribuido bajo la licencia [Beerware](https://en.wikipedia.org/wiki/Beerware).
- Si algún día nos conocemos y consideras esto útil puedes comprarme una cerveza para "devolver el favor".
-```
+
+Este software es distribuido bajo la licencia [Beerware](https://en.wikipedia.org/wiki/Beerware).
+Si consideras esto útil y algún día nos conocemos puedes comprarme una cerveza para "devolver el favor".

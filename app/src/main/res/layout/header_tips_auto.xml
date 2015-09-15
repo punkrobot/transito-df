@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal"
+    android:background="@color/accent" >
+
+    <TextView
+        android:id="@+id/depositos_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:drawablePadding="-8dp"
+        android:gravity="center"
+        android:background="@drawable/ripple_accent"
+        android:drawableTop="@drawable/ic_map_white_24dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:text="@string/menu_depositos"/>
+
+    <TextView
+        android:id="@+id/infracciones_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:drawablePadding="-8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/ripple_accent"
+        android:drawableTop="@drawable/ic_local_atm_white_24dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:text="@string/menu_infracciones"/>
+
+    <TextView
+        android:id="@+id/agentes_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:drawablePadding="-8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/ripple_accent"
+        android:drawableTop="@drawable/ic_verified_user_white_24dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:text="@string/menu_agentes"/>
+
+</LinearLayout>

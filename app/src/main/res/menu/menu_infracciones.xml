@@ -1,0 +1,11 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_calc"
+        android:icon="@drawable/ic_calculator"
+        android:title="@string/action_calc"
+        app:showAsAction="always" />
+
+</menu>

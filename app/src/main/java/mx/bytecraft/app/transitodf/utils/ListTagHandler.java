@@ -5,7 +5,6 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.style.BulletSpan;
 import android.text.style.LeadingMarginSpan;
-import android.util.Log;
 
 import org.xml.sax.XMLReader;
 
@@ -78,8 +77,6 @@ public class ListTagHandler implements Html.TagHandler {
                             new LeadingMarginSpan.Standard(numberMargin));
                 }
             }
-        } else {
-            if (opening) Log.d("ListTagHandler", "Found an unsupported tag " + tag);
         }
     }
 
