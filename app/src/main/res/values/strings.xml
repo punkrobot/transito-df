@@ -10,6 +10,10 @@
     <string name="action_search">Búsqueda</string>
     <string name="action_about">Acerca de la app</string>
 
+    <string name="menu_depositos">Depósitos</string>
+    <string name="menu_infracciones">Infracciones</string>
+    <string name="menu_agentes">Agentes</string>
+
 
     <!-- Preferencias -->
 
@@ -37,6 +41,12 @@
     <string name="acerca_text">App desarrollada por <a href="http://bytecraft.mx">byteCraft.mx</a>. Se aceptan correcciones y mejoras en el <a href="https://github.com/punkrobot/transito-df">repositorio del código fuente</a>.</string>
     <string name="acerca_creditos_title">Créditos</string>
     <string name="acerca_creditos_text">Con imágenes y textos del <a href="https://www.ecobici.df.gob.mx/sites/default/files/pdf/manual-del-ciclista.pdf">Manual del Ciclista Urbano</a></string>
+
+    <string name="infracciones_buscar_hint">Buscar placas …</string>
+    <string name="infracciones_help_text">Ingresa un número de placa de auto particular, motocicleta, taxi o microbús.</string>
+    <string name="infracciones_empty_text">El vehículo no tiene infracciones. \n\n:)</string>
+    <string name="infracciones_buscando_text">Buscando</string>
+    <string name="infracciones_buscando_placa">"Matrícula: "</string>
 
     <string name="share_title">Compartir usando …</string>
     <string name="share_text">#RTDF #TránsitoDF</string>
@@ -66,8 +76,5 @@
 
     <string name="ucdmx">69.95</string>
     <string name="sm">70.10</string>
-    <string name="menu_depositos">Depósitos</string>
-    <string name="menu_infracciones">Infracciones</string>
-    <string name="menu_agentes">Agentes</string>
 
 </resources>

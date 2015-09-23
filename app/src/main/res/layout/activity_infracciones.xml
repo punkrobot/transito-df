@@ -1,18 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <include layout="@layout/appbar_simple" />
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="56dp"
+            android:paddingRight="8dp" >
+
+            <EditText
+                android:id="@+id/inf_placas_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:inputType="textCapCharacters|textNoSuggestions|textVisiblePassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/search_input"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:hint="@string/infracciones_buscar_hint" />
+
+            <ImageView
+                android:id="@+id/inf_buscar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:src="@drawable/ic_search_white_24dp"/>
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/infracciones_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background" />
+        android:background="@color/background"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/infracciones_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_toolbar"
+        android:visibility="visible"
+        android:text="@string/infracciones_help_text"/>
 
 </LinearLayout>

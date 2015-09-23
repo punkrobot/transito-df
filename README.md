@@ -4,8 +4,8 @@ App nativa de Android para la consulta del Reglamento de Tránsito del DF.
 
 ### Pendientes ###
 
-* Cansulta de depósitos vehiculares
-* Consulta de infracciones
+* Cansulta de depósitos vehiculares.
+* Consulta de agentes autorizados para infraccionar.
 
 ### Colaborar ###
 
@@ -16,4 +16,4 @@ También se aceptan reglamentos para otros estados, puedes ver el formato en el 
 ### Licencia ###
 
 Este software es distribuido bajo la licencia [Beerware](https://en.wikipedia.org/wiki/Beerware).
-Si consideras esto útil y algún día nos conocemos puedes comprarme una cerveza para "devolver el favor".
+Si consideras esto útil y algún día nos conocemos puedes comprarme una cerveza en retribución.
