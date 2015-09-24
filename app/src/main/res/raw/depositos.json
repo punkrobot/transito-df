@@ -1,0 +1,202 @@
+﻿[
+  {
+    "nombre": "Las Águilas",
+    "direccion": "Av. Rómulo OFarril s/n esq. Alfonso Caso, Col. Las Águilas",
+    "delegacion": "Álvaro Obregón",
+    "telefono": "55 93 68 91",
+    "longitud": "-99.207573",
+    "latitud": "19.352074"
+  },
+  {
+    "nombre": "Canarios",
+    "direccion": "Canarios s/n esq. División del Norte, Col. Bellavista",
+    "delegacion": "Álvaro Obregón",
+    "telefono": "52 73 44 43",
+    "longitud": "-99.193092",
+    "latitud": "19.393591"
+  },
+  {
+    "nombre": "Grutas",
+    "direccion": "Grutas s/n esq Av. Central, Col. 8 de Agosto",
+    "delegacion": "Álvaro Obregón",
+    "telefono": "26 14 17 31",
+    "longitud": "-99.189285",
+    "latitud": "19.393618"
+  },
+  {
+    "nombre": "Azcapotzalco",
+    "direccion": "Poniente 152 No. 1020 entre Av. Ceylan y Vallejo, Col. Prensa Nacional",
+    "delegacion": "Azcapotzalco",
+    "telefono": "55 67 21 87",
+    "longitud": "-99.172157",
+    "latitud": "19.507986"
+  },
+  {
+    "nombre": "Culturas",
+    "direccion": "Av Culturas entre Norte 5 y Fco Márquez, Col. San Pedro Xalpa",
+    "delegacion": "Azcapotzalco",
+    "telefono": "53 18 70 13",
+    "longitud": "-99.189384",
+    "latitud": "19.509878"
+  },
+  {
+    "nombre": "Las Armas",
+    "direccion": "Cda. de Franciso Villa s/n esq. Emiliano Zapata, Col San Pedro Xalpa",
+    "delegacion": "Azcapotzalco",
+    "telefono": "53 18 70 13",
+    "longitud": "-99.214584",
+    "latitud": "19.485029"
+  },
+  {
+    "nombre": "Industrial Vallejo",
+    "direccion": "Calzada Azcapotzalco-La Villa No. 624 entre Ceylan y Norte 59, Col. Industrial Vallejo",
+    "delegacion": "Azcapotzalco",
+    "telefono": "53 68 97 24",
+    "longitud": "-99.167328",
+    "latitud": "19.490580"
+  },
+  {
+    "nombre": "Obrera",
+    "direccion": "Av. Taller No. 18 entre San Antonio Abad y Callejón Agustín Delgado, Col. Tránsito",
+    "delegacion": "Cuauhtémoc",
+    "telefono": "57 41 42 44",
+    "longitud": "-99.134216",
+    "latitud": "19.413816"
+  },
+  {
+    "nombre": "Imán",
+    "direccion": "Antonio Delfín Madrigal entre enrique Ureñas y Av. Aztecas, Col. Santo Domingo",
+    "delegacion": "Coyoacán",
+    "telefono": "58 38 83 88",
+    "longitud": "-99.173111",
+    "latitud": "19.322788"
+  },
+  {
+    "nombre": "Indios Verdes",
+    "direccion": "Av. Insurgetes Norte s/n esq. Acueducto de Guadalupe, Col. Santa Isabel Tola",
+    "delegacion": "Gustavo A. Madero",
+    "telefono": "57 48 17 57",
+    "longitud": "-99.117767",
+    "latitud": "19.500637"
+  },
+  {
+    "nombre": "El Coyol",
+    "direccion": "Av. Eduardo Molina No. 1639 esq. Oriente 157, Col. El Coyol (ex Módulo Ruta 100)",
+    "delegacion": "Gustavo A. Madero",
+    "telefono": "57 37 62 24",
+    "longitud": "-99.093773",
+    "latitud": "19.487022"
+  },
+  {
+    "nombre": "El Zarco",
+    "direccion": "Av. Talismán s/n esq. Gran Canal, Col. San Juan de Aragón",
+    "delegacion": "Gustavo A. Madero",
+    "telefono": "57 41 78 55",
+    "longitud": "-99.095032",
+    "latitud": "19.466869"
+  },
+  {
+    "nombre": "Añil",
+    "direccion": "Eje 3 Sur s/n casi esq. Viaducto frente a Estacionamiento del Palacio de los Deportes, pta. 7 y 8, Col. Granjas",
+    "delegacion": "Iztacalco",
+    "telefono": "56 48 41 70",
+    "longitud": "-99.102905",
+    "latitud": "19.406393"
+  },
+  {
+    "nombre": "La Viga",
+    "direccion": "Juan Álvarez s/n esq. Calzada de la Viga, Col. Benito Juárez",
+    "delegacion": "Iztacalco",
+    "telefono": "56 33 14 00",
+    "longitud": "-99.121078",
+    "latitud": "19.386068"
+  },
+  {
+    "nombre": "Troncoso",
+    "direccion": "Oriente 110 s/n esq. Troncoso y Recreo, Col. Benito Juárez",
+    "delegacion": "Iztacalco",
+    "telefono": "56 33 14 00",
+    "longitud": "-99.114357",
+    "latitud": "19.392412"
+  },
+  {
+    "nombre": "Cabeza de Juárez",
+    "direccion": "Av. 3 esq. Emilio Azcárraga Vidaurreta (Estacionamiento del Deportivo Fco. I. Madero), Col. Ejército de Oriente",
+    "delegacion": "Iztapalapa",
+    "telefono": "57 73 74 36",
+    "longitud": "-99.039909",
+    "latitud": "19.382870"
+  },
+  {
+    "nombre": "Sta. Cruz Meyehualco",
+    "direccion": "Samuel Gompers s/n entre Genaro Estrada y Calle 71, Col. Santra Cruz Meyehualco",
+    "delegacion": "Iztapalapa",
+    "telefono": "56 92 63 43",
+    "longitud": "-99.047249",
+    "latitud": "19.350279"
+  },
+  {
+    "nombre": "Central de Abastos",
+    "direccion": "Toltecas s/n esq. Eje 6 Sur, Col. Central de Abastos.",
+    "delegacion": "Iztapalapa",
+    "telefono": "",
+    "longitud": "-99.101014",
+    "latitud": "19.370102"
+  },
+  {
+    "nombre": "Módulo 39",
+    "direccion": "Av. Enrique Contel, U.H. Ejército Consitucionalista entre Emilio Balli y Emilio Azcárraga, Col. Santa Cruz Meyehualco",
+    "delegacion": "Iztapalapa",
+    "telefono": "",
+    "longitud": "-99.044861",
+    "latitud": "19.386150"
+  },
+  {
+    "nombre": "Fuerte Loreto",
+    "direccion": "Eje 5 Sur s/n esq. Plan de Ayala entre Av. Circunvalación y José Aguilar, Col. Santa María Aztahuacán",
+    "delegacion": "Iztapalapa",
+    "telefono": "",
+    "longitud": "-99.031189",
+    "latitud": "19.363503"
+  },
+  {
+    "nombre": "Renovación",
+    "direccion": "Eje 5 Sur s/n, Col. Renovación",
+    "delegacion": "Iztapalapa",
+    "telefono": "56 00 36 85",
+    "longitud": "-99.049049",
+    "latitud": "19.373602"
+  },
+  {
+    "nombre": "Salinillas",
+    "direccion": "Prensa Salinillas casi esq. Ingenieros Militares, Col. Irrigación",
+    "delegacion": "Miguel Hidalgo",
+    "telefono": "53 95 87 81",
+    "longitud": "-99.216606",
+    "latitud": "19.444471"
+  },
+  {
+    "nombre": "Tláhuac",
+    "direccion": "Juan Mendoza s/n esq. Tierra y Libertad, Col. San José Tláhuac",
+    "delegacion": "Tláhuac",
+    "telefono": "58 42 93 56",
+    "longitud": "-99.001144",
+    "latitud": "19.279375"
+  },
+  {
+    "nombre": "Piraña",
+    "direccion": "Piraña s/n entre Leandro Valle y Langosta, Col. del Mar (en el interior del Agrupamiento Fuerza de Tarea)",
+    "delegacion": "Tláhuac",
+    "telefono": "",
+    "longitud": "-99.066406",
+    "latitud": "19.285439"
+  },
+  {
+    "nombre": "Xochimilco",
+    "direccion": "Capulines s/n entre La Presa y Prolongación 16 de Septiembre, Col. Barrio Xaltocan",
+    "delegacion": "Xochimilco",
+    "telefono": "55 55 50 90",
+    "longitud": "-99.107674",
+    "latitud": "19.250372"
+  }
+]

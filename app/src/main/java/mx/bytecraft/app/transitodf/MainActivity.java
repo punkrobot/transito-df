@@ -198,6 +198,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     public void onHeaderClic(int id) {
         switch (id){
             case R.id.depositos_btn:
+                startActivity(new Intent(MainActivity.this, DepositosActivity.class));
                 break;
             case R.id.infracciones_btn:
                 startActivity(new Intent(MainActivity.this, InfraccionesActivity.class));

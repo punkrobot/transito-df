@@ -19,8 +19,7 @@
         android:drawableTop="@drawable/ic_map_white_24dp"
         android:textColor="@color/white"
         android:textSize="12sp"
-        android:text="@string/menu_depositos"
-        android:visibility="gone" />
+        android:text="@string/menu_depositos" />
 
     <TextView
         android:id="@+id/infracciones_btn"

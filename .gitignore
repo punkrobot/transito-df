@@ -32,3 +32,7 @@ captures/
 
 #General
 .DS_Store
+
+
+#Keys
+google_maps_api.xml

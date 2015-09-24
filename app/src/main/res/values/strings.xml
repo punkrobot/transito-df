@@ -20,6 +20,7 @@
     <string name="title_reglamento">Reglamento de tránsito</string>
     <string name="title_articulo">Artículo</string>
     <string name="title_activity_infracciones">Infracciones</string>
+    <string name="title_activity_depositos">Depósitos Vehiculares</string>
     <string name="title_activity_settings">Configuración</string>
 
     <string name="calc_title">Calculadora de Multas</string>
@@ -47,6 +48,8 @@
     <string name="infracciones_empty_text">El vehículo no tiene infracciones. \n\n:)</string>
     <string name="infracciones_buscando_text">Buscando</string>
     <string name="infracciones_buscando_placa">"Matrícula: "</string>
+
+    <string name="depositos_info">Si llevaron tu vehículo al depósito, llama a los siguientes teléfonos:\n\n * Dirección de Control de Vehículos en Depósitos de la SSP: <a href="tel:57093600">5709 3600</a> y <a href="tel:57093104">5709 3104</a>\n * Centro de Atención Ciudadana: <a href="tel:52425004">5242 5004</a>\n * Locatel: <a href="tel:56581111">5658 1111</a></string>
 
     <string name="share_title">Compartir usando …</string>
     <string name="share_text">#RTDF #TránsitoDF</string>
